@@ -1,35 +1,37 @@
-# OpenAI-Checker
+# OpenAI-Checker（简中汉化版）
+一个用来检测你的IP是否可以访问OpenAI服务的脚本 \
+原作者：[Vincent](https://github.com/missuo) 翻译：天神 \
 Used to check if your IP can access OpenAI services.
 
-## Notice
+## 请注意Notice
+**原作者只是创建了这个脚本，其他任何关于OpenAI服务可用性检测的网站和程序均非其之责任，请自行判断准确性。理论上，通过网页端是无法做到准确判断的，所以建议通过shell来进行。**
 **I have only created this script, and any other websites and programs for OpenAI service availability checking are not my responsibility, so please judge the accuracy by yourself. Theoretically, it is not possible to make accurate judgments through the web side, so it is recommended that you do so through a shell.**
 
-## Detection method
-Our detection results come from **Cloudflare** and the accuracy is independent of this script.   
+## 检测方法
+检测结果来自 **Cloudflare**，其准确性与本脚本无关 \
+当前有161个国家/地区支持openAI，原作者仓库会及时更新最新的地区池。本fork仓库会尽可能跟上原作者的更新，如有不及时请见谅
 
-At present, there are 161 countries supported, and I will continue to update the countries and regions newly supported by OpenAI.
-
-## Usage
+## 使用方法
 ```shell
-bash <(curl -Ls https://cpp.li/openai)
+bash <(curl -Ls https://tian-shen.me/file/openai)
 ```
 or
 ```shell
-bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/OpenAI-Checker/openai.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/sahuidhsu/OpenAI-Checker-zh_CN/main/openai.sh)
 ```
-## Result
+## 结果示例
 ```
-> bash <(curl -Ls https://cpp.li/openai)
-OpenAI Access Checker. Made by Vincent
-https://github.com/missuo/OpenAI-Checker
+> bash <(curl -Ls https://raw.githubusercontent.com/sahuidhsu/OpenAI-Checker-zh_CN/main/openai.sh)
+OpenAI访问检测脚本. 原作者：Vincent. 汉化：天神
+源仓库：https://github.com/missuo/OpenAI-Checker
 -------------------------------------
 [IPv4]
-Your IPv4: 205.185.1.1 - FranTech Solutions
-Your IP supports access to OpenAI. Region: US
+您的IPv4地址: 114.514.191.98 网络提供商：Shimokitazawa Network
+您的IP支持访问openAI. 地区码: JP
 -------------------------------------
 [IPv6]
-Your IPv6: 2401:95c0:f001::1 - Vincent Yang
-Your IP supports access to OpenAI. Region: TW
+您的IPv6地址: 7c10:0721:1551:8a11::1024 网络提供商：SoftBank Corp
+您的IP支持访问openAI. 地区码: JP
 -------------------------------------
 ```
 ## Thanks
