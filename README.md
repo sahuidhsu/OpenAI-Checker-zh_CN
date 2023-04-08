@@ -9,7 +9,7 @@ Used to check if your IP can access OpenAI services.
 
 ## 检测方法
 检测结果来自 **Cloudflare**，其准确性与本脚本无关 \
-当前有160个国家/地区支持openAI，原作者仓库会及时更新最新的地区池。本fork仓库会尽可能跟上原作者的更新，如有不及时请见谅
+当前(2023-04-05)有163个国家/地区支持openAI，原作者仓库会及时更新最新的地区池。本fork仓库会尽可能跟上原作者的更新，如有不及时请见谅
 
 ## 使用方法
 ```shell
