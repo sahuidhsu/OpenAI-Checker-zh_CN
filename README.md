@@ -4,8 +4,8 @@
 Used to check if your IP can access OpenAI services.
 
 ## 请注意Notice
-**原作者只是创建了这个脚本，其他任何关于OpenAI服务可用性检测的网站和程序均非其之责任，请自行判断准确性。理论上，通过网页端是无法做到准确判断的，所以建议通过shell来进行。**
-**I have only created this script, and any other websites and programs for OpenAI service availability checking are not my responsibility, so please judge the accuracy by yourself. Theoretically, it is not possible to make accurate judgments through the web side, so it is recommended that you do so through a shell.**
+**由于OpenAI的政策变更，本脚本可能不再精确。（2023年5月29日）** \
+**With the update of OpenAI's strategy, this script may no longer be accurate. (May 29, 2023)**
 
 ## 检测方法
 检测结果来自 **Cloudflare**，其准确性与本脚本无关 \
