@@ -3,9 +3,9 @@
 原作者：[Vincent](https://github.com/missuo) 翻译：天神 \
 Used to check if your IP can access OpenAI services.
 
-## 请注意Notice
-**由于OpenAI的政策变更，本脚本可能不再精确。（2023年5月29日）** \
-**With the update of OpenAI's strategy, this script may no longer be accurate. (May 29, 2023)**
+> [!IMPORTANT]
+> **由于OpenAI的策略变更，本脚本可能不再精确。（2023年5月29日）** \
+> **With the update of OpenAI's strategy, this script may no longer be accurate. (May 29, 2023)**
 
 ## 检测方法
 检测结果来自 **Cloudflare**，其准确性与本脚本无关 \
